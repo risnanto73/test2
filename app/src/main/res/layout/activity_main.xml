@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/_231e39"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:backgroundTint="@color/ffbb0b"
+        android:text="Pro"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/naufal"
+        app:civ_border_color="@color/ffbb0b"
+        app:civ_border_overlay="true"
+        app:civ_border_width="3dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Miftahunnaufal"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:text="Yogyakarta"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Android Development, UI Designer, And Kotlin"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/_03bfcb"
+            android:text="Message"
+            android:textColor="@color/_231e39"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/_231e39"
+            android:outlineProvider="none"
+            android:text="Following"
+            android:textColor="#03bfcb"
+            android:textSize="20dp"
+            app:strokeColor="#03bfcb"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginVertical="10dp"
+        android:background="@color/_03bfcb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="SKILS"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_231e39"
+                android:text="Andoid Studio"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="10dp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp">
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </HorizontalScrollView>
+
+</LinearLayout>
